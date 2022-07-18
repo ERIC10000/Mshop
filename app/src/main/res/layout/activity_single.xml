@@ -33,8 +33,7 @@
         android:layout_height="wrap_content"
         android:text="Latest Desihn in the Market, Welcome All for Our Offers and delivery options Available"
         android:textAlignment="center"
-        android:textSize="20dp"
-        android:fontFamily=""
+        android:textSize="20sp"
         android:padding="20dp"/>
 
     <TextView
@@ -42,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="KES 3200"
-        android:textSize="25dp"
+        android:textSize="30dp"
         android:textAlignment="center"
         android:padding="10dp"
         android:layout_margin="10dp"

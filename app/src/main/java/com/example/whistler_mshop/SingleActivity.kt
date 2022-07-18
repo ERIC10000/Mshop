@@ -17,11 +17,11 @@ class SingleActivity : AppCompatActivity() {
         val prefs: SharedPreferences = getSharedPreferences("store",
             Context.MODE_PRIVATE)
 
-        val title = prefs.getString("Product Name", "")
+        val title = prefs.getString("product_name", "")
         val text_title = findViewById(R.id.p_name) as TextView
         text_title.text = title
 
-        val desc = prefs.getString("description", "")
+        val desc = prefs.getString("product_desc", "")
         val text_desc = findViewById(R.id.p_desc) as TextView
         text_desc.text = desc
 
